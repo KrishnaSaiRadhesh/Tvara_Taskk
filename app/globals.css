@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.page {
+  padding: 2rem;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #94a3b8;
+}
+
+/* BlurText CSS */
+.blur-text {
+  transition: filter 0.3s ease;
+}
+
+.blur-text-blurred {
+  filter: blur(4px);
+  color: #64748b;
+}
+
+.blur-text-hover.blur-text-blurred:hover {
+  filter: blur(0);
+  color: #e2e8f0;
+}
+
+.blur-text-clear {
+  filter: blur(0);
+  color: #e2e8f0;
+}
+
+/* MagnetLines */
+.magnet-container {
+  border: 1px dashed #64748b;
+  border-radius: 10px;
+  padding: 12px;
+  overflow: hidden;
+  min-height: 120px;
+}
+
+.magnet-line {
+  margin: 5px 0;
+  color: #94a3b8;
+  transition: transform 0.12s ease-out;
+}
+
+.section-block {
+  margin: 1.5rem 0;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
